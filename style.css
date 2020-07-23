@@ -1,0 +1,23 @@
+body {
+    background: #DAD299;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B0DAB9, #DAD299);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B0DAC9, #DAD298); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btn-secondary:hover {
+    opacity: 0.7!important;
+}
+
+.ninput input {
+    width: 50rem;
+}
+
+.spacer {
+    padding: 10px;
+}
+
+.valign {
+    vertical-align: bottom;
+    text-align: right;
+}
+
