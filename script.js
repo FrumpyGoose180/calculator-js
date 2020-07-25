@@ -1,4 +1,5 @@
-var input = document.getElementById('input');
+let input = document.getElementById('input');
+
 function btnclicked(val) {
     var valore = val;
     if (input.value == 0 && input.value != '=') {
@@ -24,13 +25,14 @@ function btnclicked(val) {
         input.value = '';
     }
 }
+
 document.addEventListener('keydown', function(e) {
     for (let i = 0; i < 1; i++) {
         var tasto = e.key;
         var tastonum = e.keyCode;
         var validazione = document.querySelector('.validazione');
         console.log(tasto);
-        if (tasto.match('^[a-zTabCapsLock]')) {
+        if (tasto.match('^[a-zTabCapsLock!"£$%&()?^ì]')) {
             validazione.innerHTML = "Non puoi utilizzare lettere, è una calcolatrice :)";
             setTimeout(() => validazione.innerHTML = '', 2000);
         } else if (tasto == 'Shift') {
